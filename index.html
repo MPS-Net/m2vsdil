@@ -78,9 +78,9 @@
 <br>In the proposed DIL mechanism, learning comes from two aspects: teacher-to-student and student-to-teacher. 
 	</br>
 <br>Regarding <font color="yellow">teacher-to-student</font> learning, the process starts with a powerful pre-trained teacher network, MF-RNNs with film-language [4], and then performs knowledge transfer to a student network (lightweight RNN) through KD.</br>
-<br><img src="KD.png"></br>
+<br><div style="text-align: center;"><img src="KD.png"></div></br>
 	<br>In <font color="yellow">student-to-teacher</font> learning, we turn to distill the knowledge (soft target distribution) from the student network and then transfer the knowledge to each of assistant networks (temporal resolution RNNs) integrated in the teacher network, thereby upgrading the teacher network.</br>
-<br><img src="stu2tch.png"></br>
+<br><div style="text-align: center;"><img src="stu2tch.png"></div></br>
 
 </div>
 
