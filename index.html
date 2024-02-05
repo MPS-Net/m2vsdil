@@ -61,7 +61,7 @@
 	<br>
 <hr>
 <h2>Abstract</h2>
-	Learning from music to visual storytelling of shots is an interesting and emerging task. It produces a coherent visual story in the form of a shot type sequence, which not only expands the storytelling potential for a song but also facilitates automatic concert video mashup process and storyboard generation. In this study, we present a deep interactive learning (DIL) mechanism for building a compact yet accurate sequence-to-sequence model to accomplish the task. Different from the one-way transfer between a pre-trained teacher network (or ensemble network) and a student network in knowledge distillation (KD), the proposed method enables collaborative learning between an ensemble teacher network and a student network. Namely, the student network also teaches. Specifically, our method first learns a teacher network that is composed of several assistant networks to generate a shot type sequence and produce the soft target (shot types) distribution accordingly through KD. It then constructs the student network that learns from both the ground truth label (hard target) and the soft target distribution to alleviate the difficulty of optimization and improve generalization capability. As the student network gradually advances, it turns to feed back knowledge to the assistant networks, thereby improving the teacher network in each iteration. Owing to such interactive designs, the DIL mechanism bridges the gap between the teacher and student networks and produces more superior capability for both networks. Objective and subjective experimental results demonstrate that both the teacher and student networks can generate more attractive shot sequences from music, thereby enhancing the viewing and listening experience.
+	<div class="example">Learning from music to visual storytelling of shots is an interesting and emerging task. It produces a coherent visual story in the form of a shot type sequence, which not only expands the storytelling potential for a song but also facilitates automatic concert video mashup process and storyboard generation. In this study, we present a deep interactive learning (DIL) mechanism for building a compact yet accurate sequence-to-sequence model to accomplish the task. Different from the one-way transfer between a pre-trained teacher network (or ensemble network) and a student network in knowledge distillation (KD), the proposed method enables collaborative learning between an ensemble teacher network and a student network. Namely, the student network also teaches. Specifically, our method first learns a teacher network that is composed of several assistant networks to generate a shot type sequence and produce the soft target (shot types) distribution accordingly through KD. It then constructs the student network that learns from both the ground truth label (hard target) and the soft target distribution to alleviate the difficulty of optimization and improve generalization capability. As the student network gradually advances, it turns to feed back knowledge to the assistant networks, thereby improving the teacher network in each iteration. Owing to such interactive designs, the DIL mechanism bridges the gap between the teacher and student networks and produces more superior capability for both networks. Objective and subjective experimental results demonstrate that both the teacher and student networks can generate more attractive shot sequences from music, thereby enhancing the viewing and listening experience.</div>
 <br>
 	<hr>
 <h2>Music to visual storytelling of shots</h2>
@@ -262,19 +262,22 @@
 
 	<br>
 		Source videos:
- <br>- Singer 1:  https://www.youtube.com/watch?v=Rrrrbyqba7g
+ <br>- Singer 1:  
+		<br>https://www.youtube.com/watch?v=Rrrrbyqba7g
   <br>                 https://www.youtube.com/watch?v=37D0f2yPaHQ
    <br>                    https://www.youtube.com/watch?v=ZZrkukQeJo0
    <br>                    https://www.youtube.com/watch?v=3FlRdpSqvQs
    <br>                    https://www.youtube.com/watch?v=J3obY-TYrX8
 
- <br>- Singer 2: https://www.youtube.com/watch?v=cJQBbYj_I0o
+ <br>- Singer 2: 
+		<br>https://www.youtube.com/watch?v=cJQBbYj_I0o
           <br>        https://www.youtube.com/watch?v=UL05gjS_i6k
           <br>            https://www.youtube.com/watch?v=FCCZ_PNBpaY
           <br>            https://www.youtube.com/watch?v=ImiMlzPVuPQ
           <br>            https://www.youtube.com/watch?v=HxhEVKihrtI
 
-<br> - Singer 3: https://www.youtube.com/watch?v=HYzFS6WCFdw
+<br> - Singer 3: 
+		<br>https://www.youtube.com/watch?v=HYzFS6WCFdw
         <br>              https://www.youtube.com/watch?v=KOTkYnrnLmU
         <br>              https://www.youtube.com/watch?v=MrGgBoBmw2A
         <br>              https://www.youtube.com/watch?v=AqTMgutbd9w
